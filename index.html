@@ -18,14 +18,71 @@
     <!-- external css -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body class="index-body">
+        <div id="preloader"></div>
+        <header>
+            <video id="index-video" src="video/johnwick.webm" autoplay muted loop></video>
+            <nav>
+                <div class="logo_ul">
+                    <img src="img/logo.png" alt="">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    
+                        <li><a href="#">Movies</a></li>
+                    
+                        <li><a href="#">Series</a></li>
+                   
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="content">
+                <h1 id="title"> Money Heist</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla eius dicta doloribus accusantium, suscipit sapiente laudantium odio. Quis earum fugiat tenetur suscipit accusamus velit nulla sint exercitationem pariatur porro?</p>
+                <div class="details">
+                    <h6>A Netflix original film</h6>
+                    <h6 id="gen">Thriller</h6>
+                    <h6>2021</h6>
+                    <h6 id="rate"><span>ımdb</span><i class="bi bi-star-fill"></i></h6>
+                </div>
+                <div class="btns">
+                    <a href="" id="play">watch<i class="bi bi-play-fill"></i></a>
+                    <a href="" id="download_main"><i class="bi bi-cloud-download-fill"></i></a>
+                </div>
+            </div>
+            <section>
+                <h4>popular</h4>
+                <i class="fa-solid fa-chevron-left" id="left_btn"></i>
+                <i class="fa-solid fa-chevron-right" id="right_btn"></i>
+                <div class="cards">
+                    <!-- <a href="#" class="card" data-video="video/jurasicworld.webm">
+                        <img class="poster" src="img/jurassic world.jpg" alt="">
+                        <div class="rest_card">
+                            <img src="img/jurassic world1.jpg" alt="">
+                            <div class="cont">
+                                <h4>jurassic world</h4>
+                                <div class="sub">
+                                    <p>Action, 2022</p>
+                                    <h3><span>IMDB</span><i class="fa-solid fa-star"></i>9.6</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a> -->
+                   
+                    
+                   
+                </div>
+            </section>
+        </header>
 
 
 
 
 
-    
+
+
+
      <!-- aos cdn -->
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -35,6 +92,6 @@
       </script>
 
       <!-- external js -->
-       <script src="script.js"></script>
+       <script src="scripts/index.js"></script>
 </body>
 </html>
